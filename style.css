@@ -1,18 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: rgb(11, 3, 19);
-    color: rgb(217, 205, 230);
+  background-color: rgb(11, 3, 19);
+  color: rgb(217, 205, 230);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+#welcomeText {
+  /* background-color: darkred; */
+}
+
+#datePicker {
+  margin: 1rem 0;
 }
